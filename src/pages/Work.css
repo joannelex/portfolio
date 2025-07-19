@@ -1,0 +1,120 @@
+.work-container {
+    padding-top: 10rem;
+    font-family: 'Helvetica Neue', sans-serif;
+
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.work-tabs {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.work-tabs button {
+    background: none;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 22px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.work-tabs button.active {
+    border-radius: 999px;
+    border: black 2.5px solid;
+}
+
+.work-tabs button:hover {
+    color: #344EAD;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.work-content-container {
+    margin-top: 2rem;
+}
+
+.work-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.work-experience-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, auto);  
+    grid-template-rows: repeat(2, auto); 
+    justify-items: start;
+    align-self: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.work-experience-containter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.work-cloud-swe {
+    margin-left: -16%;
+    margin-top: -3rem;
+}
+
+.work-cloud-design {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -5rem;
+    margin-right: -14%;
+    margin-bottom: 4rem;
+}
+
+.work-scroll-indicator {
+    animation: bounce 1.5s infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.2s ease, transform 1.2s ease;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+.work-projects {
+    margin-top: 350px;
+}
+
+.work-projects-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}

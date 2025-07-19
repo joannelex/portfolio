@@ -1,0 +1,62 @@
+.project-card {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 340px;
+    align-items: flex-start;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card-image img {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  .project-card-info {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  
+  .project-card-date {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    margin-bottom: 4px;
+  }
+  
+  .project-card-name {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: -1.6px;
+    margin-bottom: 6px;
+  }
+  
+  .project-card-description {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .project-card:hover .project-card-description {
+    opacity: 1;
+    max-height: 100px; 
+    pointer-events: auto;
+    
+  }
+  

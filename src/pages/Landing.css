@@ -1,0 +1,107 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 4rem;
+    padding-top: 14rem;
+}
+
+.landing-top {
+    justify-content: space-between;
+    width: 60%;
+}
+
+.name {
+    font-size: 80px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: lighter;
+    letter-spacing: -5px;
+    margin: 0;
+    margin-right: 8rem;
+}
+
+.landing-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    margin-top: 3rem;
+}
+
+.landing-bee {
+    justify-self: flex-end;
+    animation: bounce 1.5s infinite;
+}
+
+.landing-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.landing-nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.landing-nav-links a:hover {
+    color: #344EAD;
+}
+
+.landing-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 6rem;
+    padding-right: 5rem;
+}
+
+.cloud-left {
+    position: relative;
+    left: 2rem;
+    bottom: 4rem;
+}
+
+.cloud-right {
+    position: relative;
+    right: 2rem;
+    bottom: -9rem; 
+}
+
+.tagline {
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.scroll-indicator {
+    margin-top: 16px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}

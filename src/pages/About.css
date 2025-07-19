@@ -1,0 +1,43 @@
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.about-top-container {
+    padding-top: 10rem;
+}
+
+.about-clouds-container {
+    position: relative;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.about-cloud-left {
+    position: relative;
+    left: 2rem;
+    bottom: 0rem;
+}
+
+.about-cloud-right {
+    position: relative;
+    right: -20%;
+    bottom: 8rem; 
+}

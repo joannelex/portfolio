@@ -1,0 +1,41 @@
+.experience-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 15px;
+    /* max-width: 300px; */
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.experience-item:hover {
+    cursor: pointer;
+    color: #344EAD;
+}
+
+.experience-logo img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+.experience-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-dates {
+    font-size: 17px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.3px;
+    font-weight: 300;
+}
+
+.experience-title {
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.3px;
+}
+  

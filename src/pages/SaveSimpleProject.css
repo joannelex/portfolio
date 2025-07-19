@@ -1,0 +1,429 @@
+
+
+.project-page {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #1F1F1F;
+    padding: 4rem 2rem;
+
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+}
+
+.project-page p {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+
+
+
+}
+
+.project-page li {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+
+.project-page ol {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.project-page h4 {
+    line-height: 1.4;
+    font-weight: 600;
+    margin: 0;
+    width: fit-content;
+    font-size: 18px;
+}
+
+.project-page h5 {
+    line-height: 1.4;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 0.3rem;
+    width: fit-content;
+    color: #A5A5A5;
+    font-size: 18px;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+
+}
+.project-col {
+    display: flex;
+    flex-direction: column;
+}
+  
+.project-header .back-button {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.project-hero img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 3rem;
+}
+  
+.project-problem {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-left: 140px;
+    padding-right: 100px;
+}
+
+.project-problem h3 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+
+    background: linear-gradient(90deg, #FFAFD1 0%, #497BAF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+  
+.problem-list {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    letter-spacing: 0.7px;
+}
+  
+.problem-list-number {
+    font-size: 46px;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-right: 12px;
+    margin-bottom: -8px;
+}
+  
+.project-backstory {
+    background-color: #282828;
+    padding: 5rem 4%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+  
+.project-backstory h3 {
+    font-size: 1.2rem;
+    color: #A0A0A0;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -1px;
+    margin-right: 7rem;
+    padding-left: 4rem;
+}
+  
+.project-backstory p {
+    color: #a2a2a2;
+}
+  
+.project-backstory .highlight {
+    font-style: italic;
+    color: #fff;
+    margin: 1.5rem 0;
+}
+
+.project-backstory-text {
+    padding-right: 8rem;
+}
+  
+
+.project-gradient-text {
+    font-size: 1.2rem;
+
+    background: linear-gradient(90deg, #FFAFD1 40%, #497BAF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -1px;
+
+    margin-right: 7rem;
+    padding-left: 4rem;
+  }
+
+
+
+.project-solution-section {
+    padding: 6rem 3rem;
+    color: #e0e0e0;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-section-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+
+.project-sneak-peek {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 0.25rem;
+}
+
+.project-chat-bubble {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 60%;
+    padding-left: 2rem;
+}
+
+.project-gray {
+    background-color: #999;
+    align-self: flex-start;
+    color: white;
+    border-bottom-left-radius: 0;
+}
+
+.project-blue {
+    background-color: #317aff;
+    align-self: flex-end;
+    color: white;
+    border-bottom-right-radius: 0;
+}
+
+.project-role-panels {
+    display: flex;
+    gap: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.project-role-panel {
+    background-color: #4a4a4a;
+    padding: 2rem 2rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-role-panel:hover {
+    transform: translateY(-5px);
+    background-color: #5f5f5f;
+    transition: all 0.5s ease;
+}
+
+.project-role-panel img {
+    width: 30px;
+    height: auto;
+}
+
+.project-role-description {
+margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #2a2a2a;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #e0e0e0;
+    animation: fadeInSlideUp 0.5s ease-out;
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+.project-process-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 3rem;
+    gap: 1.5rem;
+}
+
+.project-process-title {
+    width: fit-content;
+    align-self: start;
+}
+
+.project-sub-content-container {
+    color: #e0e0e0;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+}
+
+.project-solution-text {
+    width: 80%;
+    padding-left: 8rem;;
+}
+
+.ss-image-container {
+    width: 90%;
+}
+
+.ss-project-lofi-image {
+    width: 80%;
+    margin-top: 4rem;
+}
+
+
+.ss-project-lofi-container {
+    background-color: #4a4a4a;
+    padding: 8rem 6rem;
+    margin: 0 -6rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ss-project-analytics-image {
+    width: 30%;
+    padding-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.ss-project-hover-button-image {
+    width: 40%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.ss-savings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0.7rem 1rem 0.7rem;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 8rem;
+}
+
+.ss-saving-ui-section {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.ss-saving-ui-image {
+    width: 210px;
+    border-radius: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.ss-saving-ui-image.active {
+    transform: scale(1.03);
+    border: #FF3EB2 1.5px solid;
+}
+
+.ss-saving-ui-description {
+    padding-right: 8rem;
+    animation: fadeInSlideUp 0.3s ease-out;
+}
+
+.ss-project-saving-hover-description {
+    padding-left: 4rem;
+
+}
+
+.ss-project-saving-design-consideration {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ss-saving-ui-dc-image {
+    width: 100%;
+}
+  
+.ss-project-spending-image {
+    width: 50%;
+
+    margin-bottom: 2rem;
+}
+
+.ss-project-spending-text-container {
+    margin-top: 8rem;
+    padding-right: 2rem;
+}
+
+.ss-project-notif-image {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.ss-project-notif-text-container {
+    padding-right: 8rem;
+    margin-left: 8rem;
+}
+
+.project-final-thoughts {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 0 1rem;
+}
+
+.project-final-box {
+    background-color: #282828;
+    padding: 5rem 4rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
