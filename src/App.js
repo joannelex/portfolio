@@ -14,6 +14,9 @@ import Workday from './pages/WorkdayProject';
 import Pluto from './pages/PlutoProject';
 import HackathonWebsites from './pages/HackathonWebsitesProject';
 
+import ScrollToTopOnProjectPage from './components/ScrollToTopOnProjectPage';
+
+
 function App() {
   const [showHeader, setShowHeader] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -43,6 +46,7 @@ function App() {
 
   return (
     <Router basename="/portfolio">
+      <ScrollToTopOnProjectPage />
       <Routes>
         {/* Main scrolling page */}
         <Route
