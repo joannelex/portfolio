@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Routes>
         {/* Main scrolling page */}
         <Route
