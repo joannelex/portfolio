@@ -11,10 +11,17 @@ import CsssLogo from '../assets/images/csss.png';
 import Cloud from '../assets/Cloud';
 import ArrowDown from '../assets/ArrowDown';
 import ProjectCard from '../components/ProjectCard';
+import { useSearchParams, useNavigate } from 'react-router-dom';
+
 
 export default function Work() {
-  const [activeTab, setActiveTab] = useState('swe');
   const [headerRef, isVisible] = useInView({ threshold: 0.3 });
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeTab = searchParams.get('tab') || 'design';
+
+  const setActiveTab = (tab) => {
+    setSearchParams({ tab });
+};
 
   return (
     <section className="work-container">
