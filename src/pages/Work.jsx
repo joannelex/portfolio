@@ -31,12 +31,12 @@ export default function Work() {
           >
             design
           </button>
-          <button
+          {/* <button
             className={activeTab === 'pm' ? 'active' : ''}
             onClick={() => setActiveTab('pm')}
           >
             pm
-          </button>
+          </button> */}
         </div>
 
         <div className='work-content'>
@@ -164,24 +164,23 @@ export default function Work() {
                     date="01/2025"
                     name="Workday calendar redesign"
                     description="Reimagining course registration for UBC students"
-                    to="/projects/nom"
+                    to="/projects/workday"
                   />
                 </div>
                 <div className='work-projects-container'>
-                  
                   <ProjectCard
                     image={require('../assets/images/pluto.png')}
                     date="09/2022"
                     name="Pluto"
                     description="Improving productivity for hackathon organizers"
-                    to="/projects/nom"
+                    to="/projects/pluto"
                   />
                   <ProjectCard
                     image={require('../assets/images/nwhacks.png')}
                     date="09/2024"
                     name="Hackathon websites"
                     description="Web design for Western Canada's largest hackathons"
-                    to="/projects/nom"
+                    to="/projects/hackathon-websites"
                   />
                 </div>
               </div>

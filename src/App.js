@@ -10,6 +10,9 @@ import Work from './pages/Work';
 
 import SaveSimpleProject from './pages/SaveSimpleProject';
 import NomProject from './pages/NomProject';
+import Workday from './pages/WorkdayProject';
+import Pluto from './pages/PlutoProject';
+import HackathonWebsites from './pages/HackathonWebsitesProject';
 
 function App() {
   const [showHeader, setShowHeader] = useState(false);
@@ -75,6 +78,9 @@ function App() {
 
         <Route path="/projects/savesimple" element={<SaveSimpleProject />} />
         <Route path="/projects/nom" element={<NomProject />} />
+        <Route path="/projects/workday" element={<Workday />} />
+        <Route path="/projects/pluto" element={<Pluto />} />
+        <Route path="/projects/hackathon-websites" element={<HackathonWebsites />} />
       </Routes>
     </Router>
   );
