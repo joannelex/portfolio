@@ -337,8 +337,8 @@ export default function SaveSimplyProject() {
             <h3 className="ss-project-gradient-text">Final thoughts</h3>
             <div>
               <p>
-                This was one of the most fulfilling projects I’ve worked on — not just because of the product, but because of the people it brought together.
-                I got to lead with empathy, clarity, and curiosity — and bring a bold vision to life alongside 14 passionate teammates.
+                This was one of the most fulfilling projects I’ve worked on—not just because of the product, but because of the people it brought together.
+                I got to lead with empathy, clarity, and curiosity and bring a bold vision to life alongside 14 passionate teammates.
               </p>
               <p style={{ marginTop: `2rem` }}>
                 And most importantly? We created something that made saving feel human again.

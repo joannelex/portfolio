@@ -40,11 +40,11 @@ export default function SaveSimplyProject() {
         <p>Or worse — an endless scroll of messages: “I’m good with anything!” → “How about sushi?” → “I had sushi yesterday.” → “Okay, Korean?” → “Too far.”</p><br/>
         <p>
             In our case, this scenario played out daily in our team’s Slack chat. Every time lunchtime rolled around, we would get stuck in a cycle of indecision. 
-            With a mix of dietary restrictions, personal tastes, and busy schedules, finding a place everyone was happy with became a mental tax — the kind of 
+            With a mix of dietary restrictions, personal tastes, and busy schedules, finding a place everyone was happy with became a mental tax—the kind of 
             small friction that drains time and energy.
         </p><br/>
         <p>
-            We realized this wasn’t just our problem — it’s universal. Group decision-making around dining tends to fall apart because:
+            We realized this wasn’t just our problem, but it’s universal. Group decision-making around dining tends to fall apart because:
         </p>
 
 
@@ -54,7 +54,7 @@ export default function SaveSimplyProject() {
               <span className='problem-list-number'>01</span>
               <p><strong>Too many preferences to juggle</strong></p>
             </div>
-            <p>Everyone has their own dietary needs and taste profiles — but there’s no easy way to balance them.</p>
+            <p>Everyone has their own dietary needs and taste profiles but there’s no easy way to balance them.</p>
           </div>
 
           <div style={{ color: '#FEA386' }}>
@@ -70,7 +70,7 @@ export default function SaveSimplyProject() {
               <span className='problem-list-number'>03</span>
               <p><strong>Coordination overhead</strong></p>
             </div>
-            <p>Once a place is finally chosen, someone still needs to book a table — another task that often falls through the cracks.</p>
+            <p>Once a place is finally chosen, someone still needs to book a table—another task that often falls through the cracks.</p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function SaveSimplyProject() {
             based on group location, dietary restrictions, and taste preferences, Nom <strong>simplifies the decision-making process</strong> and <strong>automates reservation booking</strong> — eliminating the common friction of “Where should we eat?”
           </p><br/>
           <p>
-            On the day of the outing, the group votes on their favorite restaurant in-app, and Nom handles the rest — seamlessly securing a reservation at the winning spot.
+            On the day of the outing, the group votes on their favorite restaurant in-app, and Nom handles the restsea: seamlessly securing a reservation at the winning spot.
           </p>
         </div>
       </div>
@@ -91,11 +91,11 @@ export default function SaveSimplyProject() {
 
 
       <div className="project-process-section">
-        <h3 className="nom-project-gradient-text project-process-title">A solution that just works — so you can focus on the fun</h3>
+        <h3 className="nom-project-gradient-text project-process-title">A solution that just works, so you can focus on the fun</h3>
         <div style={{ paddingLeft: '4rem', paddingRight: '4rem' }}>
             <p>
                 To define our MVP, our designer and I collaborated on user stories and mapped out key user flows. The goal was to keep 
-                the experience minimal, intuitive, and delightful — focusing on how Nom could fit seamlessly into social routines.
+                the experience minimal, intuitive, and delightful—focusing on how Nom could fit seamlessly into social routines.
             </p>
 
             <p>
@@ -123,7 +123,7 @@ export default function SaveSimplyProject() {
           <h4>1. Visual Identity & UI/UX</h4>
           <div>
             <p className='project-solution-text'>
-                I developed the brand identity, focusing on playful visuals that would resonate with a diverse audience. This included crafting our mascots, the nommers — expressive, vibrant creatures that inject personality into the app and enhance the user experience.
+                I developed the brand identity, focusing on playful visuals that would resonate with a diverse audience. This included crafting our mascots, the nommers: expressive, vibrant creatures that inject personality into the app and enhance the user experience.
             </p>
             <img src={Nommers} alt="Nommers" className='ss-image-container' style={{ width: '30%', marginLeft:'12rem', marginTop:'4rem', marginBottom:'4rem' }} />
             <p>The <strong>nommers</strong> serve as both visual cues and a lighthearted element that differentiates Nom from typical utilitarian dining apps. Don’t they look so nommable?</p>
