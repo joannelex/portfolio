@@ -98,14 +98,14 @@
     margin-bottom: 3rem;
 }
   
-.project-problem {
+.ss-project-problem {
     margin-bottom: 100px;
     margin-top: 100px;
     padding-left: 140px;
     padding-right: 100px;
 }
 
-.project-problem h3 {
+.ss-project-problem h3 {
     font-size: 1.2rem;
     margin-bottom: 3rem;
 
@@ -167,7 +167,7 @@
 }
   
 
-.project-gradient-text {
+.ss-project-gradient-text {
     font-size: 1.2rem;
 
     background: linear-gradient(90deg, #FFAFD1 40%, #497BAF 80%);

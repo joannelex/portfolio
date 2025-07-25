@@ -33,7 +33,7 @@ export default function SaveSimplyProject() {
         <span style={{ textAlign: 'right' }}>Tech: NextJS, React, Express, Firebase, bland.ai, Figma</span>
       </div>
 
-      <div className="project-problem">
+      <div className="nom-project-problem">
         <h3>Problem - Decisions, decisions, decisions”</h3>
         <p>It always starts the same way: someone asks, “Where should we eat?”  And then... silence.</p>
         <img src={NomChat} alt="Nom Chat" className='project-nom-chat' />
@@ -91,7 +91,7 @@ export default function SaveSimplyProject() {
 
 
       <div className="project-process-section">
-        <h3 className="project-gradient-text project-process-title">A solution that just works — so you can focus on the fun</h3>
+        <h3 className="nom-project-gradient-text project-process-title">A solution that just works — so you can focus on the fun</h3>
         <div style={{ paddingLeft: '4rem', paddingRight: '4rem' }}>
             <p>
                 To define our MVP, our designer and I collaborated on user stories and mapped out key user flows. The goal was to keep 
@@ -118,7 +118,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-process-section">
-        <h3 className="project-gradient-text project-process-title">Now, it was time to cook</h3>
+        <h3 className="nom-project-gradient-text project-process-title">Now, it was time to cook</h3>
         <div className='project-sub-content-container'>
           <h4>1. Visual Identity & UI/UX</h4>
           <div>
@@ -150,7 +150,7 @@ export default function SaveSimplyProject() {
 
       <div className="project-final-thoughts">
           <div className="project-final-box">
-            <h3 className="project-gradient-text">What's Next?</h3>
+            <h3 className="nom-project-gradient-text">What's Next?</h3>
             <div>
               <ol>
                 <li>

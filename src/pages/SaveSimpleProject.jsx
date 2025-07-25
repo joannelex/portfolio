@@ -92,7 +92,7 @@ export default function SaveSimplyProject() {
         <span style={{ textAlign: 'right' }}>Timeline: 3 days</span>
       </div>
 
-      <div className="project-problem">
+      <div className="ss-project-problem">
         <h3>Problem: “I want to save, but I don’t know how”</h3>
         <div className="problem-list">
           <div style={{ color: '#FFB4D4' }}>
@@ -140,7 +140,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-solution-section">
-        <h3 className="project-gradient-text">Solution</h3>
+        <h3 className="ss-project-gradient-text">Solution</h3>
 
         <div className="project-solution-body">
           <p>
@@ -221,7 +221,7 @@ export default function SaveSimplyProject() {
       )}
 
       <div className="project-process-section">
-        <h3 className="project-gradient-text project-process-title">The process</h3>
+        <h3 className="ss-project-gradient-text project-process-title">The process</h3>
         <div className='project-sub-content-container'>
           <h4>1. Ideation</h4>
           <p className='project-solution-text'>
@@ -334,7 +334,7 @@ export default function SaveSimplyProject() {
 
         <div className="project-final-thoughts">
           <div className="project-final-box">
-            <h3 className="project-gradient-text">Final thoughts</h3>
+            <h3 className="ss-project-gradient-text">Final thoughts</h3>
             <div>
               <p>
                 This was one of the most fulfilling projects I’ve worked on — not just because of the product, but because of the people it brought together.
