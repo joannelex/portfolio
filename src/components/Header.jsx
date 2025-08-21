@@ -9,8 +9,8 @@ export default function Header({ activeSection }) {
       <div className="nav-links">
         <a href="#about" className={isActive('about')}>about</a>
         <a href="#work" className={isActive('work')}>work</a>
-        <a href="#education" className={isActive('education')}>education</a>
-        <a href="#contact" className={isActive('contact')}>contact</a>
+        {/* <a href="#education" className={isActive('education')}>education</a>
+        <a href="#contact" className={isActive('contact')}>contact</a> */}
       </div>
     </header>
   );

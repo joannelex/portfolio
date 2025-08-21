@@ -17,8 +17,8 @@ export default function Landing() {
             <div className="landing-nav-links">
                 <a href="#about">about</a>
                 <a href="#work">work</a>
-                <a href="#education">education</a>
-                <a href="#contact">contact</a>
+                {/* <a href="#education">education</a>
+                <a href="#contact">contact</a> */}
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ function App() {
       const landingHeight = window.innerHeight * 0.9;
       setShowHeader(scrollY > landingHeight);
 
-      const sections = ['about', 'work', 'education', 'contact'];
+      const sections = ['about', 'work'];
       for (let id of sections) {
         const el = document.getElementById(id);
         if (el) {
