@@ -25,12 +25,11 @@ import Notif from '../assets/images/ss/ss-hifi-notif.png';
 export default function SaveSimplyProject() {
   const navigate = useNavigate();
   const [expanded, setExpanded] = useState(null);
+  const [savingHovered, setSavingHovered] = useState('header');
 
   const togglePanel = (panel) => {
     setExpanded(expanded === panel ? null : panel);
   };
-
-  const [savingHovered, setSavingHovered] = useState('header');
 
   const savingDescriptions = {
     ai: (
