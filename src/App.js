@@ -59,13 +59,15 @@ function App() {
                 </div>
               )}
 
-              <Landing />
+              <section className="snap-section" id="landing">
+                <Landing />
+              </section>
 
-              <section id="about" style={{ height: '100vh' }}>
+              <section id="about" className="snap-section">
                 <About />
               </section>
 
-              <section id="work" style={{ height: '100vh' }}>
+              <section id="work" className="snap-section">
                 <Work />
               </section>
 
