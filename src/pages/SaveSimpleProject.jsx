@@ -1,11 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import './SaveSimpleProject.css';
+import './Project.css';
 
 import SaveSimplyHero from '../assets/images/ss/savesimply-hero.png'; 
 import ChatBubble from '../assets/images/ss/saveSimply-chat-bubbles.png';
-import DesignIcon from '../assets/images/ss/designIcon.png';
-import PMIcon from '../assets/images/ss/pmIcon.png';
+// import DesignIcon from '../assets/images/ss/designIcon.png';
+// import PMIcon from '../assets/images/ss/pmIcon.png';
 import Ideas from '../assets/images/ss/saveSimple-process-ideas.png';
 import UserStory from '../assets/images/ss/ss-user-story.png';
 import Lofi from '../assets/images/ss/ss-lofi.png';
@@ -24,12 +25,12 @@ import Notif from '../assets/images/ss/ss-hifi-notif.png';
 
 export default function SaveSimplyProject() {
   const navigate = useNavigate();
-  const [expanded, setExpanded] = useState(null);
+  // const [expanded, setExpanded] = useState(null);
   const [savingHovered, setSavingHovered] = useState('header');
 
-  const togglePanel = (panel) => {
-    setExpanded(expanded === panel ? null : panel);
-  };
+  // const togglePanel = (panel) => {
+  //   setExpanded(expanded === panel ? null : panel);
+  // };
 
   const savingDescriptions = {
     ai: (
@@ -92,7 +93,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="ss-project-problem">
-        <h3>Problem: “I want to save, but I don’t know how”</h3>
+        <h3>PROBLEM: “I WANT TO SAVE BUT I DONT KNOW HOW”</h3>
         <div className="problem-list">
           <div style={{ color: '#FFB4D4' }}>
             <div className='project-row' style={{ alignItems: 'end', marginBottom: '14px' }}>
@@ -121,7 +122,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-backstory">
-        <h3>backstory</h3>
+        <h3>BACKSTORY</h3>
         <div className='project-backstory-text'>
           <p>
             That became the seed for <strong>SaveSimply</strong> — a concept I pitched during hackathon sign-ups. <strong>The response? Overwhelming.</strong>
@@ -139,7 +140,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-solution-section">
-        <h3 className="ss-project-gradient-text">Solution</h3>
+        <h3 className="ss-project-gradient-text">SOLUTION</h3>
 
         <div className="project-solution-body">
           <p>
@@ -157,7 +158,7 @@ export default function SaveSimplyProject() {
         </div>
       </div>
 
-      <div className="project-role-panels">
+      {/* <div className="project-role-panels">
         <div className="project-role-panel" onClick={() => togglePanel('design')}>
           <p>My Design Role</p>
           <img src={DesignIcon} alt="Figma Icon" />
@@ -217,10 +218,10 @@ export default function SaveSimplyProject() {
             <li><strong>Notification Model:</strong> Tailors nudges based on user behavior</li>
           </ol>
         </div>
-      )}
+      )} */}
 
       <div className="project-process-section">
-        <h3 className="ss-project-gradient-text project-process-title">The process</h3>
+        <h3 className="ss-project-gradient-text project-process-title">THE PROCESS</h3>
         <div className='project-sub-content-container'>
           <h4>1. Ideation</h4>
           <p className='project-solution-text'>
@@ -333,7 +334,7 @@ export default function SaveSimplyProject() {
 
         <div className="project-final-thoughts">
           <div className="project-final-box">
-            <h3 className="ss-project-gradient-text">Final thoughts</h3>
+            <h3 className="ss-project-gradient-text">FINAL THOUGHTS</h3>
             <div>
               <p>
                 This was one of the most fulfilling projects I’ve worked on—not just because of the product, but because of the people it brought together.

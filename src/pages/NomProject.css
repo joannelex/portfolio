@@ -1,114 +1,10 @@
 
-
-.project-page {
-    font-family: 'Helvetica Neue', sans-serif;
-    color: white;
-    background-color: #1F1F1F;
-    padding: 4rem 2rem;
-}
-
-.project-page p {
-    line-height: 1.6;
-    letter-spacing: 1px;
-    font-weight: 300;
-    margin: 0;
-    font-size: 16px;
-
-
-
-}
-
-.project-page li {
-    line-height: 1.4;
-    letter-spacing: 1px;
-    font-weight: 300;
-    margin: 0;
-    font-size: 16px;
-}
-
-.project-page ol {
-    line-height: 1.4;
-    letter-spacing: 1px;
-    font-weight: 300;
-    margin: 0;
-    font-size: 16px;
-}
-
-
-.project-page h4 {
-    line-height: 1.4;
-    font-weight: 600;
-    margin: 0;
-    width: fit-content;
-    font-size: 18px;
-}
-
-.project-page h5 {
-    line-height: 1.4;
-    font-weight: 600;
-    margin: 0;
-    margin-top: 0.3rem;
-    width: fit-content;
-    color: #A5A5A5;
-    font-size: 18px;
-}
-
-.project-row {
-    display: flex;
-    flex-direction: row;
-
-}
-.project-col {
-    display: flex;
-    flex-direction: column;
-}
-  
-.project-header .back-button {
-    background: none;
-    border: none;
-    color: #ccc;
-    font-size: 1rem;
-    cursor: pointer;
-}
-  
-.project-hero img {
-    width: 100%;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeSlideIn 0.8s ease-out forwards;
-}
-
-@keyframes fadeSlideIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-  
-.project-meta {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9rem;
-    color: #aaa;
-    margin-bottom: 3rem;
-}
-
 .project-nom-chat {
     width: 400px;
     align-self: center;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-
-
-
-
-
-
-
-
   
 .nom-project-problem {
     margin-bottom: 100px;
@@ -125,60 +21,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-family: 'Geist', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
-  
-.problem-list {
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
-    letter-spacing: 0.7px;
-    margin-top: 4rem;
-}
-  
-.problem-list-number {
-    font-size: 46px;
-    font-family: 'Pixelify Sans', sans-serif;
-    margin-right: 12px;
-    margin-bottom: -8px;
-}
-  
-.project-backstory {
-    background-color: #282828;
-    padding: 5rem 4%;
-    display: flex;
-    flex-direction: row;
-    border-radius: 30px;
-}
-  
-.project-backstory h3 {
-    font-size: 1.2rem;
-    color: #A0A0A0;
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    letter-spacing: -1px;
-    margin-right: 7rem;
-    padding-left: 4rem;
-}
-  
-.project-backstory p {
-    color: #a2a2a2;
-}
-  
-.project-backstory .highlight {
-    font-style: italic;
-    color: #fff;
-    margin: 1.5rem 0;
-}
-
-.project-backstory-text {
-    padding-right: 8rem;
-}
-  
 
 .nom-project-gradient-text {
     font-size: 1.2rem;
@@ -187,10 +33,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-family: 'Geist', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 
     margin-right: 7rem;
     padding-left: 4rem;
@@ -312,7 +157,7 @@ margin-top: 2rem;
 
 .project-sub-content-container {
     color: #e0e0e0;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Geist', sans-serif;
     display: flex;
     flex-direction: row;
     padding-left: 4rem;

@@ -22,9 +22,8 @@
     background: none;
     padding: 0.5rem 2rem;
     border: none;
-    font-size: 22px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: -0.5px;
+    font-size: 18px;
+    font-family: 'Geist', sans-serif;
     font-weight: 500;
     cursor: pointer;
 }

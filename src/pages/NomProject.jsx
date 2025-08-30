@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import './NomProject.css';
+import './Project.css';
 
 import NomHero from '../assets/images/nom/nom-hero.png'; 
 import NomChat from '../assets/images/nom/nom-chat.png';
@@ -34,7 +35,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="nom-project-problem">
-        <h3>Problem - Decisions, decisions, decisions”</h3>
+        <h3>PROBLEM - DECISIONS, DECISIONS, DECISIONS</h3>
         <p>It always starts the same way: someone asks, “Where should we eat?”  And then... silence.</p>
         <img src={NomChat} alt="Nom Chat" className='project-nom-chat' />
         <p>Or worse — an endless scroll of messages: “I’m good with anything!” → “How about sushi?” → “I had sushi yesterday.” → “Okay, Korean?” → “Too far.”</p><br/>
@@ -76,7 +77,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-backstory">
-        <h3>tldr</h3>
+        <h3>TL;DR</h3>
         <div className='project-backstory-text'>
           <p>
             Nom is a <strong>Progressive Web App (PWA)</strong> designed to streamline group dining decisions. By curating personalized restaurant recommendations 
@@ -91,7 +92,7 @@ export default function SaveSimplyProject() {
 
 
       <div className="project-process-section">
-        <h3 className="nom-project-gradient-text project-process-title">A solution that just works, so you can focus on the fun</h3>
+        <h3 className="nom-project-gradient-text project-process-title">A SOLUTION THAT JUST WORKS, SO YOU CAN FOCUS ON THE FUN</h3>
         <div style={{ paddingLeft: '4rem', paddingRight: '4rem' }}>
             <p>
                 To define our MVP, our designer and I collaborated on user stories and mapped out key user flows. The goal was to keep 
@@ -118,7 +119,7 @@ export default function SaveSimplyProject() {
       </div>
 
       <div className="project-process-section">
-        <h3 className="nom-project-gradient-text project-process-title">Now, it was time to cook</h3>
+        <h3 className="nom-project-gradient-text project-process-title">NOW, IT WAS TIME TO COOK</h3>
         <div className='project-sub-content-container'>
           <h4>1. Visual Identity & UI/UX</h4>
           <div>
@@ -150,7 +151,7 @@ export default function SaveSimplyProject() {
 
       <div className="project-final-thoughts">
           <div className="project-final-box">
-            <h3 className="nom-project-gradient-text">What's Next?</h3>
+            <h3 className="nom-project-gradient-text">WHAT'S NEXT?</h3>
             <div>
               <ol>
                 <li>

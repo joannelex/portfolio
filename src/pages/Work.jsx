@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { useInView } from '../hooks/useInView';
 import './Work.css';
 import Experience from '../components/Experience';
@@ -11,7 +11,7 @@ import CsssLogo from '../assets/images/csss.png';
 import Cloud from '../assets/Cloud';
 import ArrowDown from '../assets/ArrowDown';
 import ProjectCard from '../components/ProjectCard';
-import { useSearchParams, useNavigate } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 
 export default function Work() {
@@ -30,13 +30,13 @@ export default function Work() {
             className={activeTab === 'swe' ? 'active' : ''}
             onClick={() => setActiveTab('swe')}
           >
-            swe
+            SWE
           </button>
           <button
             className={activeTab === 'design' ? 'active' : ''}
             onClick={() => setActiveTab('design')}
           >
-            design
+            DESIGN
           </button>
           {/* <button
             className={activeTab === 'pm' ? 'active' : ''}

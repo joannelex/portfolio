@@ -13,7 +13,11 @@ export default function Landing() {
           </div>
 
           <div className="landing-row">
-            <h1 className="name">joanne</h1>
+            <div className='landing-headers'>
+              <div style={{ fontSize:"20px" }}>Hey! My name is</div>
+              <div className="name">joanne</div>
+              <p style={{ fontSize:"20px", marginTop:"40px" }}>and I like crafting delight with DESIGN and CODE</p>
+            </div>
             <div className="landing-nav-links">
                 <a href="#about">about</a>
                 <a href="#work">work</a>
