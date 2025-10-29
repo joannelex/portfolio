@@ -172,6 +172,7 @@ export default function Work() {
                     name="Workday calendar redesign"
                     description="Reimagining course registration for UBC students"
                     to="/projects/workday"
+                    isDisabled={true}
                   />
                 </div>
                 <div className='work-projects-container'>
@@ -181,6 +182,7 @@ export default function Work() {
                     name="Pluto"
                     description="Improving productivity for hackathon organizers"
                     to="/projects/pluto"
+                    isDisabled={true}
                   />
                   <ProjectCard
                     image={require('../assets/images/nwhacks.png')}
@@ -188,6 +190,7 @@ export default function Work() {
                     name="Hackathon websites"
                     description="Web design for Western Canada's largest hackathons"
                     to="/projects/hackathon-websites"
+                    isDisabled={true}
                   />
                 </div>
               </div>

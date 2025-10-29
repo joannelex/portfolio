@@ -1,62 +1,102 @@
 .project-card {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 340px;
-    align-items: flex-start;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .project-card-image img {
-    width: auto;
-    height: 300px;
-    object-fit: contain;
-  }
-  
-  .project-card-info {
-    margin-top: 1rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-left: 16px;
-  }
-  
-  .project-card-date {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    letter-spacing: -1.2px;
-    margin-bottom: 4px;
-  }
-  
-  .project-card-name {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    letter-spacing: -1.6px;
-    margin-bottom: 6px;
-  }
-  
-  .project-card-description {
-    font-family: 'Geist', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 340px;
+  align-items: flex-start;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card-image img {
+  width: auto;
+  height: 300px;
+  object-fit: contain;
+}
+
+.project-card-info {
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.project-card-date {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+  margin-bottom: 4px;
+}
+
+.project-card-name {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: -1.6px;
+  margin-bottom: 6px;
+}
+
+.project-card-description {
+  font-family: 'Geist', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  pointer-events: none;
+}
+
+.project-card:hover .project-card-description {
+  opacity: 1;
+  max-height: 100px;
+  pointer-events: auto;
+}
+
+
+
+.project-card.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.project-card.disabled:hover {
+  transform: none;
+}
+
+.project-disabled-label {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 6px 12px;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 8px;
+  z-index: 10;
+  animation: dropIn 0.3s ease-out;
+  display: none;
+}
+
+.project-card.disabled:hover .project-disabled-label {
+  display: block;
+}
+
+@keyframes dropIn {
+  from {
     opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 0.3s ease, max-height 0.3s ease;
-    pointer-events: none;
+    transform: translateY(-10px);
   }
-  
-  .project-card:hover .project-card-description {
+  to {
     opacity: 1;
-    max-height: 100px; 
-    pointer-events: auto;
-    
+    transform: translateY(0);
   }
-  
+}
